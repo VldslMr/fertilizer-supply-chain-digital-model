@@ -19,7 +19,7 @@
 
 **`bdi_avg` — оценка, а не настоящее среднее.** Barchart отдаёт только месячные свечи, дневных данных у нас нет, поэтому среднее за месяц оценено как (open + close) / 2. Если появится дневной ряд BDI, заменить на `resample("MS").mean()` в `src/data/load_bdi.py` и перезапустить ноутбук. Это сдвигает результаты незначительно: корзина Катара 2025 г. $39,8/т (раньше $40,1 по значению на конец месяца), корреляция с Comtrade 0,89.
 
-Файл в git не хранится (`data/processed/` в `.gitignore`), его создаёт ноутбук.
+Для команды в git лежит CSV-копия: [`data/processed/transport_cost_monthly.csv`](data/processed/transport_cost_monthly.csv) (те же данные, что в parquet). Остальное в `data/processed/` в git не хранится, его создаёт ноутбук.
 
 Краткая сводка на 2 страницы: [`reports/logistics_summary.pdf`](reports/logistics_summary.pdf).
 
