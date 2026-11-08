@@ -1,0 +1,53 @@
+origin,dest,scenario,distance_nm,sea_days_one_way,via_hormuz,via_suez,via_bab_el_mandeb,via_cape,passages
+Mesaieed (QA),Paranagua (BR),normal,8499,28.3,True,False,False,True,ormuz;south_africa
+Mesaieed (QA),Paranagua (BR),no_red_sea,8499,28.3,True,False,False,True,ormuz;south_africa
+Mesaieed (QA),Kandla (IN),normal,1129,3.8,True,False,False,False,ormuz
+Mesaieed (QA),Kandla (IN),no_red_sea,1129,3.8,True,False,False,False,ormuz
+Mesaieed (QA),New Orleans (US),normal,9541,31.8,True,True,True,False,suez;ormuz;babalmandab;gibraltar
+Mesaieed (QA),New Orleans (US),no_red_sea,12237,40.8,True,False,False,True,ormuz;south_africa
+Mesaieed (QA),Geelong (AU),normal,6814,22.7,True,False,False,False,ormuz
+Mesaieed (QA),Geelong (AU),no_red_sea,6814,22.7,True,False,False,False,ormuz
+Mesaieed (QA),Antwerp (BE),normal,6437,21.5,True,True,True,False,suez;ormuz;babalmandab;gibraltar
+Mesaieed (QA),Antwerp (BE),no_red_sea,11220,37.4,True,False,False,True,ormuz;south_africa
+Mesaieed (QA),Laem Chabang (TH),normal,4477,14.9,True,False,False,False,malacca;ormuz
+Mesaieed (QA),Laem Chabang (TH),no_red_sea,4477,14.9,True,False,False,False,malacca;ormuz
+Jubail (SA),Paranagua (BR),normal,8585,28.6,True,False,False,True,ormuz;south_africa
+Jubail (SA),Paranagua (BR),no_red_sea,8585,28.6,True,False,False,True,ormuz;south_africa
+Jubail (SA),Kandla (IN),normal,1216,4.1,True,False,False,False,ormuz
+Jubail (SA),Kandla (IN),no_red_sea,1216,4.1,True,False,False,False,ormuz
+Jubail (SA),New Orleans (US),normal,9628,32.1,True,True,True,False,suez;ormuz;babalmandab;gibraltar
+Jubail (SA),New Orleans (US),no_red_sea,12324,41.1,True,False,False,True,ormuz;south_africa
+Jubail (SA),Geelong (AU),normal,6901,23.0,True,False,False,False,ormuz
+Jubail (SA),Geelong (AU),no_red_sea,6901,23.0,True,False,False,False,ormuz
+Jubail (SA),Antwerp (BE),normal,6524,21.7,True,True,True,False,suez;ormuz;babalmandab;gibraltar
+Jubail (SA),Antwerp (BE),no_red_sea,11307,37.7,True,False,False,True,ormuz;south_africa
+Jubail (SA),Laem Chabang (TH),normal,4564,15.2,True,False,False,False,malacca;ormuz
+Jubail (SA),Laem Chabang (TH),no_red_sea,4564,15.2,True,False,False,False,malacca;ormuz
+Sur (OM),Paranagua (BR),normal,7891,26.3,False,False,False,True,south_africa
+Sur (OM),Paranagua (BR),no_red_sea,7891,26.3,False,False,False,True,south_africa
+Sur (OM),Kandla (IN),normal,623,2.1,False,False,False,False,
+Sur (OM),Kandla (IN),no_red_sea,623,2.1,False,False,False,False,
+Sur (OM),New Orleans (US),normal,8933,29.8,False,True,True,False,suez;babalmandab;gibraltar
+Sur (OM),New Orleans (US),no_red_sea,11629,38.8,False,False,False,True,south_africa
+Sur (OM),Geelong (AU),normal,6206,20.7,False,False,False,False,
+Sur (OM),Geelong (AU),no_red_sea,6206,20.7,False,False,False,False,
+Sur (OM),Antwerp (BE),normal,5829,19.4,False,True,True,False,suez;babalmandab;gibraltar
+Sur (OM),Antwerp (BE),no_red_sea,10612,35.4,False,False,False,True,south_africa
+Sur (OM),Laem Chabang (TH),normal,3869,12.9,False,False,False,False,malacca
+Sur (OM),Laem Chabang (TH),no_red_sea,3869,12.9,False,False,False,False,malacca
+Damietta (EG),Antwerp (BE),normal,3282,10.9,False,False,False,False,gibraltar
+Damietta (EG),Antwerp (BE),no_red_sea,3282,10.9,False,False,False,False,gibraltar
+Damietta (EG),New Orleans (US),normal,6385,21.3,False,False,False,False,gibraltar
+Damietta (EG),New Orleans (US),no_red_sea,6385,21.3,False,False,False,False,gibraltar
+Damietta (EG),Paranagua (BR),normal,6513,21.7,False,False,False,False,gibraltar
+Damietta (EG),Paranagua (BR),no_red_sea,6513,21.7,False,False,False,False,gibraltar
+Damietta (EG),Kandla (IN),normal,3147,10.5,False,True,True,False,suez;babalmandab
+Damietta (EG),Kandla (IN),no_red_sea,11913,39.7,False,False,False,True,gibraltar;south_africa
+Ust-Luga (RU),Antwerp (BE),normal,1284,4.3,False,False,False,False,
+Ust-Luga (RU),Antwerp (BE),no_red_sea,1284,4.3,False,False,False,False,
+Ust-Luga (RU),New Orleans (US),normal,5613,18.7,False,False,False,False,
+Ust-Luga (RU),New Orleans (US),no_red_sea,5613,18.7,False,False,False,False,
+Ust-Luga (RU),Paranagua (BR),normal,6805,22.7,False,False,False,False,
+Ust-Luga (RU),Paranagua (BR),no_red_sea,6805,22.7,False,False,False,False,
+Ust-Luga (RU),Kandla (IN),normal,7587,25.3,False,True,True,False,suez;babalmandab;gibraltar
+Ust-Luga (RU),Kandla (IN),no_red_sea,12266,40.9,False,False,False,True,south_africa

@@ -1,0 +1,4 @@
+vessel_class,dwt_low,dwt_high,dwt_typical,parcel_t,speed_kn,fuel_laden_tpd,fuel_ballast_tpd,fuel_port_tpd,draft_m,source,is_estimate,note
+Handysize,25000,40000,35000,30000,12.5,20,18,3,10.0,оценка по отраслевым данным,True,"диапазон дедвейта стандартный; расход — оценка, уточнить"
+Supramax,50000,60000,56000,47000,12.5,28,24,4,12.2,https://maritimepage.com/supramax-bulk-carriers/,False,"MP: 50–60k dwt, 12–14 узлов, 25–35 т/сут, осадка ~12,2 м; партия 47 тыс. т — как у MV Densa Eagle (Кандла, авг. 2026); расход в порту — оценка"
+Ultramax,60000,65000,63000,55000,12.5,30,26,4,13.0,https://maritimepage.com/supramax-bulk-carriers/,True,MP: 60–65k dwt; скорость и расход — оценка
