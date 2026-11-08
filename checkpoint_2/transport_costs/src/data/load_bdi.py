@@ -24,7 +24,10 @@ def load_barchart(path=RAW / "bdi_barchart.csv"):
     df.index.name = "date"
     df = df.rename(columns={"Open": "bdi_open", "High": "bdi_high", "Low": "bdi_low", "Latest": "bdi"})
     # bdi = значение на конец месяца: оно известно в месяце t, поэтому в признаках нет «заглядывания в будущее»
-    df = df[["bdi", "bdi_open", "bdi_high", "bdi_low"]]
+    # bdi_avg = оценка среднего за месяц как (open + close) / 2. Дневных данных у нас нет, только месячные свечи,
+    # поэтому это приближение, а не настоящее среднее. Если появится дневной ряд — заменить на df.resample("MS").mean()
+    df["bdi_avg"] = (df["bdi_open"] + df["bdi"]) / 2
+    df = df[["bdi", "bdi_avg", "bdi_open", "bdi_high", "bdi_low"]]
     # текущий месяц ещё не закончился — выбрасываем
     current = pd.Timestamp.today().to_period("M").to_timestamp()
     return df[df.index < current]
