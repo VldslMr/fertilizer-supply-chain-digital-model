@@ -28,8 +28,6 @@
 
 Для команды в git лежит CSV-копия: [`data/processed/transport_cost_monthly.csv`](data/processed/transport_cost_monthly.csv) (те же данные, что в parquet). Остальное в `data/processed/` в git не хранится, его создаёт ноутбук.
 
-Краткая сводка на 2 страницы: [`reports/logistics_summary.pdf`](reports/logistics_summary.pdf).
-
 ## Состав папки
 | Путь | Что внутри |
 |---|---|
@@ -40,7 +38,7 @@
 | `src/reference/build_routes.py` | морские расстояния (библиотека searoute) |
 | `src/logistics/freight.py` | стоимость рейса $/т, время рейса, число судов |
 | `data/reference/` | маршруты, суда, заводы, ставки аренды, сборы, страховка — с источниками (см. README внутри) |
-| `reports/` | графики и PDF-сводка |
+| `reports/figures/` | графики |
 
 ## Как запустить
 Все пути относительные от этой папки (`checkpoint_2/transport_costs/`).
