@@ -1,0 +1,4 @@
+period,bdi,supramax_tce_usd_day,source,is_estimate,note
+"2025-02 (7,11,12 фев)",797,8600,https://handybulk.com/baltic-dry-index/2025/february/,True,"BDI 793–801 и BSI 649–710 пунктов — с сайта; $/день = BSI × 12,64 (соотношение из нояб. 2025) — пересчёт; отдельные сделки на странице $9–14 тыс."
+2025-11 (19–28 нояб),2323,18106,https://handybulk.com/baltic-dry-index/2025/november/,False,"проверено по странице: 8 дней, BDI и ставка за одни и те же дни; ставка $18 042–18 167"
+2026-07 (один день),2875,21179,https://www.handybulk.com/baltic-dry-index/2026/july/,False,проверено: одна дневная запись; недельная сводка $21 153
