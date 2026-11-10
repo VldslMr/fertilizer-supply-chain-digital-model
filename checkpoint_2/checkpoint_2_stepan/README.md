@@ -41,11 +41,11 @@
 | `reports/figures/` | графики |
 
 ## Как запустить
-Все пути относительные от этой папки (`checkpoint_2/transport_costs/`).
+Все пути относительные от этой папки (`checkpoint_2/checkpoint_2_stepan/`).
 
 ```bash
 pip3 install pandas pyarrow matplotlib searoute
-cd checkpoint_2/transport_costs
+cd checkpoint_2/checkpoint_2_stepan
 # 1. сырые данные положить в data/raw/ (список файлов — в шапках load_comtrade.py и load_bdi.py)
 python3 src/data/load_comtrade.py
 python3 src/data/load_bdi.py
